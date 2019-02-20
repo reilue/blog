@@ -31,7 +31,7 @@ https://help.ubuntu.com/community/LinuxFilesystemTreeOverview
 
 OK, once the terminal is open.
 
-![nano-bash-image](.vuepress/public/img/nanobash1.png)
+![nano-bash-image](./img/nanobash1.png)
 
 Quickly explanation:
 

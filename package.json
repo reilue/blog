@@ -1,0 +1,27 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "Personal Blog, made on [Vuepress](https://vuepress.vuejs.org/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reilue/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reilue/blog/issues"
+  },
+  "homepage": "https://github.com/reilue/blog#readme",
+  "dependencies": {
+    "vuepress": "^0.12.0"
+  }
+}
