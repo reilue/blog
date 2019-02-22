@@ -13,5 +13,3 @@ Topics:
 - Software Management
 - Internet Privacy
 - Others
-
-https://gallant-bell-850d88.netlify.com/
