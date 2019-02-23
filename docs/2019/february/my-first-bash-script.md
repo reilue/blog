@@ -41,7 +41,7 @@ For a deeper dive, check this out.
 
 OK, once the terminal is open.
 
-![nano-bash-image](../../img/nanobash1.png)
+![nano-bash-image](../../assets/img/2019/february/my-first-bash-script/nanobash1.png)
 
 Quickly explanation:
 
