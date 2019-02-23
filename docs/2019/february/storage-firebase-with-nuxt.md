@@ -1,1 +1,1 @@
-#Upload Image to Storage Firebase using Nuxt.js
+# Upload Image to Storage Firebase using Nuxt.js
