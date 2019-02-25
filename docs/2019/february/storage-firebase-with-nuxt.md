@@ -89,25 +89,93 @@ create a vue component **app-uploadfile.vue**, like this.
 
 ```
 <template>
-  <div class="custom-file">
-    <input
-      @change="uploadImage($event.target.files[0])"
-      type="file"
-      class="custom-file-input"
-      id="customFileUpload"
-      lang="es"
-      accept="image/jpeg"
-    >
-    <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
-  </div>
+  <section>
+    <div v-if="isUploading" class="p-3">
+      <div class="progress">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          :style="{'width': progress + '%'}"
+          :aria-valuenow="progress"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >{{progress}}%</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: space-around;">
+      <div>
+        <img :src="placeholderImg" alt="..." class="img-thumbnail" width="90px" height="90px">
+      </div>
+      <div>
+        <div class="custom-file">
+          <input
+            @change="imagePreview($event.target.files[0])"
+            type="file"
+            class="custom-file-input"
+            id="customFileUpload"
+            lang="es"
+          >
+          <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+        </div>
+      </div>
+      <div>
+        <button
+          v-if="!isUploading"
+          :disabled="!isImageLoaded"
+          :class="{'btn-primary': isImageLoaded, 'btn-disabled': !isImageLoaded}"
+          @click="uploadImage(imageFile)"
+          type="button"
+          class="btn"
+        >Subir</button>
+      </div>
+    </div>
+    <div class="p-2">
+      <div v-if="downloadURL" class="alert alert-dark" role="alert">{{downloadURL}}</div>
+    </div>
+  </section>
 </template>
 
 <script>
 import * as firebase from "firebase";
 
 export default {
+  data() {
+    return {
+      placeholderImg: "/placeholder300x300.png",
+      imageFile: "",
+      isUploading: false,
+      isImageLoaded: false,
+      progress: 0,
+      downloadURL: null
+    };
+  },
   methods: {
+    imagePreview: function(file) {
+      self = this;
+      this.isImageLoaded = false;
+
+      console.log("imagePreview");
+      let reader = new FileReader();
+
+      reader.onloadend = function() {
+        self.placeholderImg = reader.result;
+        console.log(this.placeholderImg);
+      };
+
+      if (file) {
+        reader.readAsDataURL(file);
+      } else {
+        this.placeholderImg = "/placeholder300x300.png";
+      }
+
+      this.imageFile = file;
+      this.isImageLoaded = true;
+    },
     uploadImage: function(file) {
+      console.log(file);
+      self = this;
+      this.isUploading = true;
+
       let metadata = {
         contentType: "image/jpeg"
       };
@@ -115,7 +183,7 @@ export default {
       let uploadTask = firebase
         .storage()
         .ref()
-        .child("/" + file.name)
+        .child("images/" + file.name)
         .put(file, metadata);
 
       uploadTask.on(
@@ -123,6 +191,9 @@ export default {
         function(snapshot) {
           let progress =
             (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+
+          self.progress = progress.toFixed(0);
+          console.log("self.progress", self.progress);
           console.log("Upload is " + progress + "% done");
         },
         function(error) {
@@ -146,8 +217,13 @@ export default {
           }
         },
         function() {
+          setTimeout(() => {
+            self.isUploading = false;
+          }, 350);
           uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
             console.log("File available at", downloadURL);
+            self.downloadURL = downloadURL;
+            self.$emit("downloadURL", downloadURL);
           });
         }
       );
@@ -156,6 +232,8 @@ export default {
 };
 </script>
 ```
+
+![imageupload](../../assets/img/2019/february/storage-firebase-with-nuxt/upload.gif)
 
 Import your component in `/pages/index.vue`, and check in your console, when you upload a file.
 
