@@ -5,7 +5,7 @@ My last interview job-task was to create such small app using [Typescript](https
 I decide to use the [Typescript Vue Starter](https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter)
 and document my own workflow process to do it. Thanks to multiple reliable & open source documentation ( my words can not express my huge humble gratitute and in the near future i would like to help aswell ). Such as:
 
-- [Node Best Practices](nodebestpractices#1-project-structure-practices)
+- [Node Best Practices](https://github.com/i0natan/nodebestpractices#1-project-structure-practices)
 - [TypeScript Node Starter](https://github.com/Microsoft/TypeScript-Node-Starter#typescript-node-starter)
 - [Typescript Node.js from basarat](https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html)
 - [Open Weather](https://openweathermap.org/current)
@@ -19,7 +19,7 @@ Given an array of ( location-name , postal-code ) show current time & weather
 
 Create a new repo, [TimeForecast-OBS](https://github.com/reilue/TimeForecast-OBS) in Github.
 
-### Set Git (Global information tracker or Distributed Version Control )
+## Set Git (Global information tracker or Distributed Version Control )
 
 ```bash
 git init
@@ -46,7 +46,7 @@ add remote repo URL
 git remote add origin git@github.com:reilue/TimeForecast-OBS.git
 ```
 
-### Set yarn
+## Set yarn
 
 ```bash
 yarn init
@@ -69,7 +69,7 @@ Ok **@types/node** it's just a contract or node API interface to expose and cons
 
 add a .gitignore file with "/node_modules" to tell git don't track any in file in it.
 
-### Optional: Live compile & run
+## Optional: Live compile & run
 
 ```bash
 yarn add ts-node --dev
@@ -94,7 +94,7 @@ great one last step create two file
 ./src/components/forecast.ts
 
 ```Typescript
-export module Forecast {
+export function forecast {
   console.log("module Forecast");
 }
 ```
@@ -102,8 +102,8 @@ export module Forecast {
 ./src/index.ts
 
 ```Typescript
-import { Forecast } from "./components/forecast/forecast";
-console.log(Forecast);
+import { forecast } from "./components/forecast/forecast";
+console.log(forecast());
 ```
 
 in your terminal type `yarn start` and Voilá. You'll see the "module Forecast" message. :sunglasses:
