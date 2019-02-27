@@ -9,7 +9,8 @@ module.exports = {
         children: [
           "/2019/february/my-first-bash-script",
           "/2019/february/storage-firebase-with-nuxt",
-          "/2019/february/last-interview-job-task-1"
+          "/2019/february/last-interview-job-task-1",
+          "/2019/february/last-interview-job-task-2"
         ]
       }
     ]
