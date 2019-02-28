@@ -9,7 +9,6 @@ and document my own workflow process to do it. Thanks to multiple reliable & ope
 - [TypeScript Node Starter](https://github.com/Microsoft/TypeScript-Node-Starter#typescript-node-starter)
 - [Typescript Node.js from basarat](https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html)
 - [Open Weather](https://openweathermap.org/current)
-- [Timezone API Google Service](https://developers.google.com/maps/documentation/timezone/start)
 
 The app is simple (as every app should be, following the [**KISS**](https://en.wikipedia.org/wiki/KISS_principle) principle ).
 
@@ -19,7 +18,7 @@ Given an array of ( location-name , postal-code ) show current time & weather
 
 Create a new repo, [TimeForecast-OBS](https://github.com/reilue/TimeForecast-OBS) in Github.
 
-## Set Git (Global information tracker or Distributed Version Control )
+## Set Git ( Global information tracker, a Distributed Version System Control )
 
 ```bash
 git init
@@ -93,7 +92,7 @@ great one last step create two file
 
 ./src/components/forecast.ts
 
-```Typescript
+```typescript
 export function forecast {
   console.log("module Forecast");
 }
@@ -101,9 +100,9 @@ export function forecast {
 
 ./src/index.ts
 
-```Typescript
-import { forecast } from "./components/forecast/forecast";
-console.log(forecast());
+```typescript
+import { forecast } from "./components/forecast/forecast"
+console.log(forecast())
 ```
 
 in your terminal type `yarn start` and Voilá. You'll see the "module Forecast" message. :sunglasses:
