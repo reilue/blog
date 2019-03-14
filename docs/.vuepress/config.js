@@ -12,7 +12,14 @@ module.exports = {
           "/2019/february/last-interview-job-task-1",
           "/2019/february/last-interview-job-task-2"
         ]
+      },
+      {
+        title: "2019/March",
+        collapsable: true,
+        children: [
+          "/2019/march/an-opinionated-ionic-vue-workflow-for-single-app"
+        ]
       }
     ]
   }
-};
+}
