@@ -17,7 +17,9 @@ module.exports = {
         title: "2019/March",
         collapsable: true,
         children: [
-          "/2019/march/an-opinionated-ionic-vue-workflow-for-single-app"
+          "/2019/march/an-opinionated-ionic-vue-workflow-for-single-app",
+          //"/2019/march/does-cordova-plugins-compatiable-with-capacitor",
+          "/2019/march/ionic4-workflow-multiapp-project"
         ]
       }
     ]
