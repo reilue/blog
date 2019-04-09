@@ -22,6 +22,20 @@ module.exports = {
           "/2019/march/ionic4-workflow-multiapp-project"
         ]
       }
+    ],
+    searchMaxSuggestions: 10,
+    lastUpdated: "Last Updated",
+    nav: [
+      {
+        text: "Linkedin",
+        link: "https://linkedin.com/in/eulier-gonzalez-69079096"
+      },
+      { text: "Github", link: "https://github.com/reilue" },
+      {
+        text: "Stack Overflow",
+        link: "https://stackoverflow.com/users/5692051/yoarthur"
+      },
+      { text: "Twitter", link: "https://twitter.com/Eulier1" }
     ]
   }
 }
