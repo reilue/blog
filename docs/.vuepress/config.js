@@ -4,14 +4,9 @@ module.exports = {
     displayAllHeaders: true,
     sidebar: [
       {
-        title: "2019/February",
+        title: "2019/April",
         collapsable: true,
-        children: [
-          "/2019/february/my-first-bash-script",
-          "/2019/february/storage-firebase-with-nuxt",
-          "/2019/february/last-interview-job-task-1",
-          "/2019/february/last-interview-job-task-2"
-        ]
+        children: ["/2019/april/quick-guide-setup-lamp-workflow"]
       },
       {
         title: "2019/March",
@@ -20,6 +15,16 @@ module.exports = {
           "/2019/march/an-opinionated-ionic-vue-workflow-for-single-app",
           //"/2019/march/does-cordova-plugins-compatiable-with-capacitor",
           "/2019/march/ionic4-workflow-multiapp-project"
+        ]
+      },
+      {
+        title: "2019/February",
+        collapsable: true,
+        children: [
+          "/2019/february/my-first-bash-script",
+          "/2019/february/storage-firebase-with-nuxt",
+          "/2019/february/last-interview-job-task-1",
+          "/2019/february/last-interview-job-task-2"
         ]
       }
     ],
