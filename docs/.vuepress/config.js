@@ -6,7 +6,10 @@ module.exports = {
       {
         title: "2019/April",
         collapsable: true,
-        children: ["/2019/april/quick-guide-setup-lamp-workflow"]
+        children: [
+          "/2019/april/using-linux-recovery-files-from-android-device",
+          "/2019/april/quick-guide-setup-lamp-workflow"
+        ]
       },
       {
         title: "2019/March",
