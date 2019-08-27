@@ -48,7 +48,7 @@ module.exports = {
         text: "Stack Overflow",
         link: "https://stackoverflow.com/users/5692051/yoarthur"
       },
-      { text: "Twitter", link: "https://twitter.com/Eulier1" }
+      { text: "Twitter", link: "https://twitter.com/arthard101" }
     ]
   }
 }
