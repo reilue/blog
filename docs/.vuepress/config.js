@@ -4,6 +4,11 @@ module.exports = {
     displayAllHeaders: true,
     sidebar: [
       {
+        title: "2020/March",
+        collapsable: true,
+        children: ["/2020/march/migrate-from-venezuela"]
+      },
+      {
         title: "2019/August",
         collapsable: true,
         children: ["/2019/august/create-category-in-datocms"]
