@@ -6,7 +6,7 @@ module.exports = {
       {
         title: "2020/March",
         collapsable: true,
-        children: ["/2020/march/migrate-from-venezuela"]
+        children: ["/2020/march/migrate-from-venezuela", "/2020/march/migrate-vuecli-nuxt"]
       },
       {
         title: "2019/August",
