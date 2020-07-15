@@ -4,6 +4,11 @@ module.exports = {
     displayAllHeaders: true,
     sidebar: [
       {
+        title: "2020/July",
+        collapsable: true,
+        children: ["/2020/july/pic-in-pic-project"]
+      },
+      {
         title: "2020/March",
         collapsable: true,
         children: ["/2020/march/migrate-from-venezuela", "/2020/march/migrate-vuecli-nuxt"]
