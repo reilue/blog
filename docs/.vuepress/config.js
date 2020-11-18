@@ -50,10 +50,14 @@ module.exports = {
     lastUpdated: "Last Updated",
     nav: [
       {
+        text: "Portfolio",
+        link: "https://eulier1.github.io/quieneseulier1/"
+      },
+      {
         text: "Linkedin",
         link: "https://linkedin.com/in/eulier-gonzalez-69079096"
       },
-      { text: "Github", link: "https://github.com/reilue" },
+      { text: "Github", link: "https://github.com/eulier1" },
       {
         text: "Stack Overflow",
         link: "https://stackoverflow.com/users/5692051/yoarthur"
