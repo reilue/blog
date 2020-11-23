@@ -69,5 +69,13 @@ module.exports = {
       },
       { text: "Twitter", link: "https://twitter.com/arthard101" }
     ]
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-XWDCEQMTCQ' // UA-00000000-0
+      }
+    ]
+  ]
 }
