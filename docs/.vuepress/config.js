@@ -4,6 +4,11 @@ module.exports = {
     displayAllHeaders: true,
     sidebar: [
       {
+        title: "2020/November",
+        collapsable: true,
+        children: ["/2020/november/how-to-applybyapi"]
+      },
+      {
         title: "2020/July",
         collapsable: true,
         children: ["/2020/july/pic-in-pic-project"]
