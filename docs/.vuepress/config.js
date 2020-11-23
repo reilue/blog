@@ -72,7 +72,7 @@ module.exports = {
   },
   plugins: [
     [
-      '@vuepress/google-analytics',
+      'google-gtag',
       {
         'ga': 'G-XWDCEQMTCQ' // UA-00000000-0
       }
