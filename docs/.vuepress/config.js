@@ -6,7 +6,7 @@ module.exports = {
       {
         title: "2020/November",
         collapsable: true,
-        children: ["/2020/november/how-to-applybyapi"]
+        children: ["/2020/november/learned-2-courses-from-zero-to-mastery", "/2020/november/how-to-applybyapi"]
       },
       {
         title: "2020/July",
