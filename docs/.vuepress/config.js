@@ -4,6 +4,11 @@ module.exports = {
     displayAllHeaders: true,
     sidebar: [
       {
+        title: "2021/January",
+        collapsable: true,
+        children: ["/2021/january/health-supplemets-2021"]
+      },
+      {
         title: "2020/December",
         collapsable: true,
         children: ["/2020/december/nuxt-and-contentful-to-build-a-multilanguage-webapp"]
