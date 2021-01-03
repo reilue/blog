@@ -1,6 +1,6 @@
 # Health Supplements 2021
 
-After watching Joe Rogan Podcast with Dr [Rhonda Patrick](https://podcastnotes.org/joe-rogan-experience/jre-901-rhonda-patrick-is-back/) a cell biologist, [David Sinclair](https://podcastnotes.org/joe-rogan-experience/sinclair-4/) biologis and professor of genetics and review it's [supplements](https://jrelibrary.com/articles/joe-rogans-supplement-stack/)
+After watching Joe Rogan Podcast with Dr [Rhonda Patrick](https://podcastnotes.org/joe-rogan-experience/jre-901-rhonda-patrick-is-back/) a cell biologist, [David Sinclair](https://podcastnotes.org/joe-rogan-experience/sinclair-4/) biologist and professor of genetics and review it's [supplements](https://jrelibrary.com/articles/joe-rogans-supplement-stack/)
 
 As a new year's resolution, i decide to begin and keep track my diet here. Supplements as they name suggest doesn't replace food. Written this, so here is the supplements i could find in **argentina** 🇦🇷.
 
