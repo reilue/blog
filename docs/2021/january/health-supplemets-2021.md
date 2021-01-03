@@ -4,7 +4,7 @@ After watching Joe Rogan Podcast with Dr [Rhonda Patrick](https://podcastnotes.o
 
 As a new year's resolution, i decide to begin and keep track my diet here. Supplements as they name suggest doesn't replace food. Written this, so here is the supplements i could find in **argentina** 🇦🇷.
 
-## [Natures Bounty Fish Oil X 1200 Mg Omega 3 X 60 Cápsulas](https://articulo.mercadolibre.com.ar/MLA-868718794-natures-bounty-fish-oil-x-1200-mg-omega-3-x-60-capsulas-_JM#position=2&type=item&tracking_id=06197539-c689-4fd5-b950-3891067263ef)
+## [Natures Bounty Fish Oil X 1200 Mg Omega 3 X 60 pills](https://articulo.mercadolibre.com.ar/MLA-868718794-natures-bounty-fish-oil-x-1200-mg-omega-3-x-60-capsulas-_JM#position=2&type=item&tracking_id=06197539-c689-4fd5-b950-3891067263ef)
 
 - 2,4g. Take 2 pills per day.
 
@@ -14,7 +14,7 @@ As a new year's resolution, i decide to begin and keep track my diet here. Suppl
 
 ![Supplement Fish Oil](https://lh3.googleusercontent.com/fife/ABSRlIohgMv_tw0dhnIWczAHt31aFX_xioqx2-m_J920yYlakj0H8BC3P5-SFqlSFtcGRS2FyuWhqNYgjHIQ387qHlx1K-z-eysn1AtOCoG2mgRwXmalyHJv04R1rBraYHNoBhdaHQbTXc-SJaraVkuw0Vj_zuAu3d8gbHX56ss7mUzCk5GlxmKwKRSMtTex_pgysydctvlP1MOL4uSPB3YK5xBgqCtWn-xrLfD_QswuJ1ky4a_FoxSDopiVuAjLD3Ymo1OdBTFlXE7fJyD_IKBJEqcOb66sVWHkgxhhC6xu5eLIr7VbsZr_pzMobhBsBN7umpnIn6Qupo5jxDTaOtGn6mh7wxAVHqgpym_dAeqRklZEwHSghzUf7jAPzFHpQX0KC4cqZjNBfQux_Zg1YTkhg8PAU3-kzECk-7XH39el09GlVDjXkJ3011S5wFY_Xa9Sagkn5w9ZHl_-SRPPhjXsUxzlILTU5jzOvo-wi4rRlBJsuDa92Ft_T_UGaZlCQN8PISbmxCzWEAF1-07xMJId2MxVmf2gFr7ZfXKHhjgkUSg3d3WqYq0gb_huZs-37d9ETi4IoT4RZBmiRXkSGVmThVGATKnr_bHzPX3HpYcjiWflAReLL2HBCbBZEXQhgdh0i6UhTauc0k-4zZ5PjLI1YG9fBYF4X-8H59RGKsGm7LSi-ap7mPADmfhFz4m0vO1-zgn65jPhV67t_Fgzgnm51LcOsmIogxZk=s835-w835-h585-no)
 
-## [Vitamina D3 125mcg 5000iu X100capsulas](https://articulo.mercadolibre.com.ar/MLA-872295011-vitamina-d3-125mcg-5000iu-x100capsulascalcio-y-sist-inmune-_JM#position=15&type=item&tracking_id=7231d446-fef4-4913-9324-642edf67e0eb)
+## [Vitamin D3 125mcg 5000iu X100 pills](https://articulo.mercadolibre.com.ar/MLA-872295011-vitamina-d3-125mcg-5000iu-x100capsulascalcio-y-sist-inmune-_JM#position=15&type=item&tracking_id=7231d446-fef4-4913-9324-642edf67e0eb)
 
 - 1 pill each 2 days.
 
