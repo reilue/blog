@@ -6,7 +6,7 @@ module.exports = {
       {
         title: "2021/January",
         collapsable: true,
-        children: ["/2021/january/health-supplemets-2021", "/2021/january/avoid-vue-vscode-extensions-collisions.md"]
+        children: ["/2021/january/health-supplemets-2021", "/2021/january/avoid-vue-vscode-extensions-collisions.md", "/2021/january/linked-list-why-do-i-need-to-know.md"]
       },
       {
         title: "2020/December",
