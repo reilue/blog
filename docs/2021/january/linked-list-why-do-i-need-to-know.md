@@ -113,7 +113,7 @@ myLinkedList.insert(1, 12)
 myLinkedList.reverse()
 ```
 
-# Recap
+## Recap
 
 Linked-list are a low level data structures, that doesn’t comes built-in in many languages, it’s a very popular, useful data structures and also in questions, when it comes to interview.
 
