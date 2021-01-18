@@ -6,7 +6,7 @@ module.exports = {
       {
         title: "2021/January",
         collapsable: true,
-        children: ["/2021january/health-supplemets-2021", "/2021/january/avoid-vue-vscode-extensions-collisions", "/2021/january/deep-dive-how-routing-nuxt-works", "/2021/january/linked-list-why-do-i-need-to-know", "/2021/january/nuxt-prefetch-optimizations"]
+        children: ["/2021/january/health-supplemets-2021", "/2021/january/avoid-vue-vscode-extensions-collisions", "/2021/january/deep-dive-how-routing-nuxt-works", "/2021/january/linked-list-why-do-i-need-to-know", "/2021/january/nuxt-prefetch-optimizations"]
       },
       {
         title: "2020/December",
